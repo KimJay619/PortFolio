@@ -1,0 +1,59 @@
+.carousel-inner{
+     height: 800px;
+     
+}
+.carousel-caption {
+    top: 60%;
+    
+}
+#pic{
+    width: 997px;
+    aspect-ratio: auto 997 / 440;
+    height: 800px;
+    display: block;
+    
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+#Education{
+    color: rgb(255, 252, 249);
+    font-family: "tahome";
+}
+#e1:hover {
+    transition: all .2s ease-in;
+    color: rgb(45, 185, 17);
+  }
+#e2:hover {
+    transition: all .2s ease-in;
+    color: rgb(17, 174, 185);
+  }
+#e3:hover {
+    transition: all .2s ease-in;
+    color: rgb(17, 95, 185);
+  }
+#e4:hover {
+    transition: all .2s ease-in;
+    color: rgb(185, 17, 17);
+  }
+body{
+    background-color: rgb(49, 49, 49);
+}
+.Carousel-caption{
+    color: aliceblue;
+}
+.item, img{
+    height: 100% ;
+    width:  100% ;
+    border: 1px solid rgb(56, 56, 56);
+}
+table {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    padding-left: 15px;
+  }
+ 

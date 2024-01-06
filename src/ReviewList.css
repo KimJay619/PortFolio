@@ -1,0 +1,89 @@
+#Reviewlot{
+    color: rgb(255, 255, 255);
+}
+
+.Review-list{
+    align-items: center;
+    
+}
+
+.g-bg-secondary {
+    background-color: #d8d8d8 !important;
+}
+#lahtList{
+    align-content: center;
+}
+
+
+.media-comment {
+   padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+
+}
+.media-body{
+    padding-top: 20px;
+   padding: 20px;
+   border-radius: 25px;
+   
+}
+.viewR{
+    color: rgb(196, 199, 18);
+    size: 300;
+    
+}
+.viewN:hover {
+    transition: all .2s ease-in;
+    color: rgb(17, 174, 185);
+  }
+.viewR:hover {
+    transition: all .2s ease-in;
+    color: rgb(252, 255, 50)
+   
+  } 
+.viewD{
+    text-decoration: none;
+    font-family: "tahome";
+}
+.viewD:hover {
+    transition: all .5s ease-in;
+    transform: scale(1.1);
+  }
+  .btn1 {
+    --c:  rgb(53, 48, 48); /* the color*/
+    
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background: 
+      var(--_g) calc(var(--_p,0%) - 100%) 0%,
+      var(--_g) calc(200% - var(--_p,0%)) 0%,
+      var(--_g) calc(var(--_p,0%) - 100%) 100%,
+      var(--_g) calc(200% - var(--_p,0%)) 100%;
+    background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+  }
+  .btn1:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s; 
+    font-weight: bold;
+  }
+  .btn1:active {
+    box-shadow: 0 0 9e9q inset rgba(0, 0, 0, 0.6); 
+    background-color: var(--c);
+    color: #fff;
+   
+  }
+  .btn1 {
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+  } 
+ 
+  
