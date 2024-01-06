@@ -1,7 +1,7 @@
 import {Outlet, Link} from "react-router-dom"
 import { useState } from "react";
 import './NavBar1.css';
-import piclogo from'./pics/gods-eater-burst-god-eater-2-logo-ace-combat-infinity-t-shirt-axe-logo-8e9782f19959bb7cc7d4ce6f4a7d4dbd.png'
+
 const NavBar1=()=>{
     const [isClosed, setIsClosed] = useState(false);
 
