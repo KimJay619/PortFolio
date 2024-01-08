@@ -21,3 +21,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Ignore long filename
+static/media/gods-eater-burst-god-eater-2-logo-ace-combat-infinity-t-shirt-axe-logo-8e9782f19959bb7cc7d4ce6f4a7d4dbd.3399fdbbcb8f21228edb.png
